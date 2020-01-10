@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.example.android_u1_tema2.fragmenttabhost.MiFragmentTabhost;
 import com.example.android_u1_tema2.mireciclerview.MiRecyclerView;
 import com.example.android_u1_tema2.multimedia.Multimedia;
 
@@ -50,6 +51,10 @@ public class MainActivity extends AppCompatActivity {
         }
         if (id == R.id.activity_mi_recicler_view) {
             startActivity(new Intent(this, MiRecyclerView.class));
+            return true;
+        }
+        if (id == R.id.activity_mi_fragment_tabhost) {
+            startActivity(new Intent(this, MiFragmentTabhost.class));
             return true;
         }
         return super.onOptionsItemSelected(item);
