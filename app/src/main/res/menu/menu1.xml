@@ -15,6 +15,10 @@
         android:id="@+id/activity_multimedia"
         android:orderInCategory="4"
         />
+    <item android:title="ReciclerView"
+        android:id="@+id/activity_mi_recicler_view"
+        android:orderInCategory="4"
+        />
     <item android:title="Permisos"
         android:id="@+id/activity_permisos"
         android:orderInCategory="2"
