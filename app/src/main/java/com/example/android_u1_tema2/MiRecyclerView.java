@@ -20,6 +20,7 @@ public class MiRecyclerView extends AppCompatActivity implements InterfaceToast{
         setContentView(R.layout.activity_mi_recycler_view);
         recyclerView = findViewById(R.id.recycler_view);
         misdatos = new Vector<String>();
+
         misdatos.add("123000 Wilson Callisaya");
         misdatos.add("123000 Pepito Domingez");
         misdatos.add("123000 Pepito Domingez");
