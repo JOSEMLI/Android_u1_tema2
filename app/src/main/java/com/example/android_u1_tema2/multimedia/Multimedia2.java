@@ -1,4 +1,4 @@
-package com.example.android_u1_tema2;
+package com.example.android_u1_tema2.multimedia;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.MediaController;
 import android.widget.VideoView;
+
+import com.example.android_u1_tema2.R;
 
 public class Multimedia2 extends AppCompatActivity {
     private MediaController mediaController;

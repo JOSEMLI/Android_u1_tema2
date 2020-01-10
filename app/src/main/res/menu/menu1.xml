@@ -15,9 +15,13 @@
         android:id="@+id/activity_multimedia"
         android:orderInCategory="4"
         />
-    <item android:title="ReciclerView"
+    <item android:title="Recicler View"
         android:id="@+id/activity_mi_recicler_view"
         android:orderInCategory="4"
+        />
+    <item android:title="Mi fragment tabhost"
+        android:id="@+id/activity_mi_fragment_tabhost"
+        android:orderInCategory="5"
         />
     <item android:title="Permisos"
         android:id="@+id/activity_permisos"

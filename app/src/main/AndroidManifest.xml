@@ -17,10 +17,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MiRecyclerView"></activity>
+        <activity android:name=".fragmenttabhost.MiFragmentTabhost"></activity>
+        <activity android:name=".mireciclerview.MiRecyclerView" />
         <activity android:name=".Permisos" />
-        <activity android:name=".Multimedia2" />
-        <activity android:name=".Multimedia" />
+        <activity android:name=".multimedia.Multimedia2" />
+        <activity android:name=".multimedia.Multimedia" />
         <activity android:name=".Intensiones" />
         <activity android:name=".MainActivity">
             <intent-filter>

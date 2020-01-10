@@ -1,4 +1,4 @@
-package com.example.android_u1_tema2;
+package com.example.android_u1_tema2.mireciclerview;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,6 +9,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.android_u1_tema2.R;
 
 import java.util.Vector;
 

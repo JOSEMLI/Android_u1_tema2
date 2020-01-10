@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.example.android_u1_tema2.mireciclerview.MiRecyclerView;
+import com.example.android_u1_tema2.multimedia.Multimedia;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
